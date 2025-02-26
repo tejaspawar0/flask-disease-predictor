@@ -70,7 +70,7 @@ def predict_disease(img_path):
 
 app = Flask(__name__)
 app.config["UPLOAD_FOLDER"] = "upload"
-model = keras.models.load_model('vgg16_30_epoch.h5')
+model = keras.models.load_model('inceptionv3_model.h5')
 
 
 @app.route("/prediction", methods=["POST"])
