@@ -5,9 +5,7 @@ import numpy as np
 from PIL import Image
 from werkzeug.utils import secure_filename
 import os
-from fastapi import FastAPI
 
-app = FastAPI()
 # source ~/projects/tf217/bin/activate
 class_names = ['Apple___Apple_scab',
  'Apple___Black_rot',
